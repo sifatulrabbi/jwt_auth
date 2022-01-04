@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
+    "alwaysStrict": true,
+    "incremental": true,
+    "outDir": "dist",
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "typeRoots": ["./node_modules/@types", "src/@types"]
+  },
+  "include": ["./src"]
+}
