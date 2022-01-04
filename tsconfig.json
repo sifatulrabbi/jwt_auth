@@ -9,7 +9,14 @@
     "outDir": "dist",
     "moduleResolution": "Node",
     "module": "CommonJS",
-    "typeRoots": ["./node_modules/@types", "src/@types"]
+    "typeRoots": ["./node_modules/@types", "src/@types"],
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "noFallthroughCasesInSwitch": false
   },
   "include": ["./src"]
 }
